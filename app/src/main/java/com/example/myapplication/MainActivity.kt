@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
         // Start the animation for the other images after a delay
         animationImageView.postDelayed({
             animationImageView.visibility = ImageView.VISIBLE // Make the animation ImageView
-            animationImageView.setBackgroundResource(R.drawable.animation_list)
+            animationImageView.setBackgroundResource(R.drawable.1)
             val animationDrawable = animationImageView.background as AnimationDrawable
             animationDrawable.start() // Start the animation for the other images
         }, 1000) // Delay for 1000 milliseconds(1s)
