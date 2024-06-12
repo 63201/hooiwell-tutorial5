@@ -3,10 +3,7 @@ package com.example.myapplication
 import android.graphics.drawable.AnimationDrawable
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import android.widget.ImageView
-import com.example.myapplication.R
 
 
 class MainActivity : AppCompatActivity() {
